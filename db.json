@@ -1,14 +1,85 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "categories": [
+    {
+      "id": 1,
+      "title": "Food & Drinks"
+    },
+    {
+      "id": 2,
+      "title": "Health & Beauty"
+    },
+    {
+      "id": 3,
+      "title": "Fashion"
+    },
+    {
+      "id": 4,
+      "title": "Entertainment"
+    },
+    {
+      "id": 5,
+      "title": "Travel"
+    }
+  ],
+  "mercants": [
+    {
+      "id": 1,
+      "name": "McDonalds",
+      "gift": "Free burger",
+      "description": "Get free burger ipsum dolor sit amet, consectetur adipiscing elit. Sed non pellentesque ligula.",
+      "image": "https://s3.amazonaws.com/alex.s.pwa-research/mechant-1-700x300.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Burger King",
+      "gift": "Free ice-cream",
+      "description": "Sed pulvinar nulla nibh, quis faucibus nisl malesuada sed. Interdum et malesuada fames ac ante ipsum primis in faucibus.",
+      "image": "https://s3.amazonaws.com/alex.s.pwa-research/mechant-2-700x300.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 3,
+      "name": "KFC",
+      "gift": "Unlimited Coca-Cola",
+      "description": "Nam venenatis porttitor mauris. Integer finibus neque ullamcorper ante dictum, non egestas magna convallis. In fringilla lacus nec ex tempus, nec rutrum quam dictum.",
+      "image": "https://s3.amazonaws.com/alex.s.pwa-research/mechant-3-700x300.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 4,
+      "name": "Restaurant Mojito",
+      "gift": "Mojito Discount",
+      "description": "Curabitur lacinia placerat sapien a feugiat. Suspendisse euismod sapien pharetra, vehicula nunc id, lobortis nulla. Donec nec vulputate augue, quis porta mauris.",
+      "image": "https://s3.amazonaws.com/alex.s.pwa-research/mechant-4-700x300.jpg",
+      "categoryId": 1
+    },
+    {
+      "id": 5,
+      "name": "Caffe Garage",
+      "gift": "2 + 1 Pizza Offer",
+      "description": "Aliquam sed eros egestas, lacinia sapien at, fermentum mauris. Etiam vitae tempus nulla, at consequat lorem. Aliquam interdum sit amet urna non auctor. Vestibulum congue leo quis nisi scelerisque porta.",
+      "image": "https://s3.amazonaws.com/alex.s.pwa-research/mechant-5-700x300.jpg",
+      "categoryId": 1
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "Comment 1",
+      "mercantsId": 1
+    },
+    {
+      "id": 2,
+      "body": "Comment 2",
+      "mercantsId": 1
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Scopic Software",
+      "image": "https://s3.amazonaws.com/alex.s.pwa-research/user-photo-1-90x90.jpg"
+    }
+  ]
 }
